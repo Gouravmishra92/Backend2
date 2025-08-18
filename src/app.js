@@ -20,5 +20,7 @@ import userRouter from './routes/user.routes.js'
 //routes declaration
 app.use("/api/v1/users",userRouter)
 
+import tweetRouter from './routes/tweet.routes.js'
+app.use("/api/v1/tweets",tweetRouter)
 
 export { app }
