@@ -26,4 +26,7 @@ app.use("/api/v1/tweets",tweetRouter)
 import commentRouter from './routes/comment.routes.js'
 app.use("/api/v1/comments",commentRouter)
 
+import playlistRouter from './routes/playlist.routes.js'
+app.use('/api/v1/playlists',playlistRouter)
+
 export { app }
